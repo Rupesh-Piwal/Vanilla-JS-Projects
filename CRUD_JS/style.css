@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  margin: 0 50px;
+  background: rgb(182, 142, 250);
+  background: linear-gradient(
+    187deg,
+    rgba(182, 142, 250, 1) 0%,
+    rgba(150, 87, 255, 1) 55%,
+    rgba(168, 123, 245, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+  border: 2px solid black;
+  background-color: rgb(226, 180, 255);
+}
+
+h1,
+h3,
+label {
+  color: rgb(82, 0, 159);
+}
+
+button {
+  width: 60px;
+  margin: 5px;
+  padding: 7px;
+  color: aliceblue;
+  background-color: blueviolet;
+  border: none;
+}
+
+#posts {
+  width: 385px;
+  /* background-color: red; */
+}
+
+#posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  gap: 25px;
+  color: rgb(77, 0, 160);
+  /* background-color: aqua; */
+}
+
+i {
+  cursor: pointer;
+}
+
+#msg {
+  color: red;
+}
